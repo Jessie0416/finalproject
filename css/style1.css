@@ -1,0 +1,290 @@
+body{
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+	background: #fff;
+}
+body a{ 
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	transition: 0.5s all;
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family: 'Bad Script', cursive;
+}
+p{
+	margin:0; 
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover{
+	text-decoration:none;
+}
+
+.banner{ 
+	background:url(../images/2.jpg)no-repeat center bottom;
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover;
+	-ms-background-size:cover; 	
+	background-size:cover; 
+	min-height: 790px;
+	position:relative;
+} 
+
+.header { 
+    width: 100%;
+    padding: 1.5em 0;
+    background: rgba(0, 0, 0, 0.56);
+	
+}
+.header nav.navbar.navbar-default {
+    background: transparent;
+    margin: 0;
+	z-index: 9999;
+	border: none;
+}
+.header ul.nav.navbar-nav.navbar-left {
+    margin-left: 18%;; 
+}
+.header ul.nav.navbar-nav{ 
+	padding-top:1.3em;
+}
+.header .navbar-nav { 
+    text-align: center;
+    display: inline-block;
+}
+.header .navbar-header h1{
+    font-size: 3.2em;
+    font-style: italic;
+    line-height: inherit;
+    font-weight: 800;
+}
+.navbar-header h1 a {
+    color: #fff;
+    text-decoration: none;
+	display: inline-block;
+}
+.navbar-header h1 a span {
+    font-size: .5em;
+    font-weight: 100;
+    font-style: initial;
+}
+
+.header .navbar-nav li { 
+	float: none;
+    display: inline-block;
+	margin:0 1.5em;
+}
+.header .nav.navbar-nav.navbar-left li a {
+    color: #fff !important;
+    font-size: 1.2em;
+    padding: 0;
+    position: relative; 
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    text-decoration: none;
+	font-weight: 300;
+}
+
+.w3ls-hover:after {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden; 
+	backface-visibility: hidden;
+	border: 1px solid rgba(255, 255, 255, 0);
+	bottom: -3px;
+	content: " ";
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transition: all 280ms ease-in-out;
+	-moz-transition: all 280ms ease-in-out;
+	-o-transition: all 280ms ease-in-out;
+	-ms-transition: all 280ms ease-in-out;
+	transition: all 280ms ease-in-out;
+	width: 0;
+}
+
+.w3ls-hover:hover:after,.navbar-default .navbar-nav li a.active:after {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-color: #0fdfe2;
+	-webkit-transition: width 350ms ease-in-out;
+	-moz-transition: width 350ms ease-in-out;
+	-o-transition: width 350ms ease-in-out;
+	-ms-transition: width 350ms ease-in-out;
+	transition: width 350ms ease-in-out;
+	width: 100%;
+} 
+.header .nav.navbar-nav.navbar-left li a.dropdown-toggle { 
+    color:#fff; 
+	border: none;
+} 
+.header .nav.navbar-nav.navbar-left li.open a.dropdown-toggle ,.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color:#0fdfe2;
+    background: none; 
+}
+.header ul.dropdown-menu {
+    background: transparent;
+    border-color: #909090;
+	-moz-animation: fadeInDown .3s ease-in;
+    -webkit-animation: fadeInDown .3s ease-in;
+	-o-animation: fadeInDown .3s ease-in;
+	-ms-animation: fadeInDown .3s ease-in;
+    animation: fadeInDown .3s ease-in;
+	background: #29232b; 
+	top:163%;
+	min-width: 135px;
+} 
+.header .navbar-nav > li > .dropdown-menu li {
+    display: block;
+    margin: 1em 0;
+}  
+.header .nav.navbar-nav.navbar-left li ul.dropdown-menu li a {
+    font-size: 1em;
+    text-align: center; 
+    font-weight: 300;
+} 
+.header .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { 
+    background-color: transparent;
+} 
+
+.banner-text {
+    margin-top: 15em;
+}
+.banner-w3lstext {
+    padding: 1em;
+	text-align: center;
+}
+.banner-w3lstext h2 ,.banner-w3lstext h3{
+    font-size: 3em;
+    color: #fff; 
+	text-align: center;
+	font-family: 'Bad Script', cursive;
+} 
+.banner-w3lstext p {
+    font-size: 1.1em;
+    color: #fff;
+    text-align: center; 
+    width: 55%;
+    margin: 2em auto 0;
+} 
+ 
+.welcome,.services,.slid,.newsletter,.codes{
+	padding:5em 0;
+}
+h3.agileits-title {
+    font-size: 3em;
+    color: #000;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.welcome h4 {
+    font-size: 1.8em;
+    color: #f30d60;
+    margin-bottom: 0.8em;
+} 
+p {
+    font-size: 1em;
+    color: #999;
+    line-height: 2em;
+    font-weight: 300;
+}
+
+.wthree-almubimg {
+    background: url(../images/img2.jpg)no-repeat center;
+    background-size: cover;
+    min-height: 374px;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+    display: block;
+} 
+.albums-right,.albums1-left{ 
+    background: #f6f7fb;
+    padding: 8em 8em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.wthree-almubimg.wthree1-almubimg {
+    background: url(../images/img3.jpg)no-repeat center;
+    background-size: cover;
+}
+.albums-left, .albums1-right {
+    padding: 0;
+}
+.albums1-right {
+    float: right;
+}
+.albums h4 {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 0.8em;
+}
+
+.slid {
+    background: url(../images/2.jpg)no-repeat center fixed;
+    background-size: cover; 
+    text-align: center;
+}
+.slid h4 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 1em;
+}
+.slid p {
+    color: #fff;
+    width: 65%;
+    margin: 0 auto;
+} 
+
+.banner.about-banner .banner-text {
+    margin-top: 4em;
+}
+.banner.about-banner {
+    min-height: 300px;
+}
+.stats.welcome {
+    border-top: 1px solid #e2e2e2;
+}
+.agileinfo_stats_grid {
+    text-align: center;
+}
+.agileinfo_stats_grid h4.counter {
+    font-size: 5em;
+    font-family: 'Roboto', sans-serif;
+    color: #38414a;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+}
+.agileinfo_stats_grid h5 {
+    font-size: 1.8em;
+    color: #999;
+}
+.about-slid h3 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 2em;
+}  
+
+
+
+
+
